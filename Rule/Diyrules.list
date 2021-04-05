@@ -1,0 +1,17 @@
+# 自用本地规则
+# 抖音服务
+host-suffix, amemv.com, direct
+host-suffix, byteimg.com, direct
+host-suffix, dig.bdurl.net, direct
+# 增加
+host-suffix, ibytedtos.com, reject
+host-suffix, ipstatp.com, reject
+# icloud DNS问题导致的捷径无法打开
+host, gateway.icloud.com, proxy
+host, cvws.icloud-content.com, proxy
+# 小小影视
+host-suffix, 39d83s.com, reject
+# 抠图网站
+host-suffix, remove.bg, direct
+# 京东脚本CDN走代理
+host, jdsharedresourcescdn.azureedge.net, proxy
