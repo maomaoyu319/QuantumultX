@@ -2,7 +2,7 @@
 exports.main_handler = async (event, context, callback) => {
   try {
     delete require.cache[require.resolve ('./jddj_fruit.js')];
-    require ("./jddj_fruit.js');
+    require ('./jddj_fruit.js');
     delete require.cache[require.resolve('./jddj_bean.js')];
     require('./jddj_bean.js');
     delete require.cache[require.resolve ('./jddj_fruit_collectWater.js')];
